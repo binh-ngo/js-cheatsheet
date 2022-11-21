@@ -1,5 +1,5 @@
 # js-cheatsheet
-Answers for Beginner's Javascript course on Codecademy
+Notes for Beginner's Javascript course on Codecademy
 
 ## Description
 This project was created as a resource for myself and others who are also beginning their journey into the world of web development.

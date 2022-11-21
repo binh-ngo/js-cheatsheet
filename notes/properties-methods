@@ -1,0 +1,48 @@
+# Properties and Methods
+
+## Length Property
+"<strong>.length</strong>" is a property that allows you to store the amount of characters in a certain string by appending it with said property.
+
+    console.log('Superman'.length);
+
+In this example, since Superman has 8 characters,the program would print 8 to the console.
+
+    console.log('Super Mario'.length);
+
+It seems that there are 10 characters in 'Super Mario', but the program also takes <em>empty space</em> into account. If there was a space before, after, or in the middle of the string, the program will add that to the total value of the string's length. So in this example, 'Super Mario' has a string length value of 11.
+
+## Methods
+Various data types are able to allow us to handle instances of said data types through the use of methods, or actions that coders can perform. We are able to call, or utilize these methods by appending each data type with:
+    <ul>
+        <li>a period</li>
+        <li>name of the method</li>
+        <li>set of parentheses</li>
+    </ul>
+
+Some of these methods include but are not limited to:
+    <ul>
+        <li>.toUpperCase() - capitalizes every letter in a string.</li>
+        <li>.startsWith() - outputs a boolean value (true/false)if the string does start with whatever value is within the parentheses.</li>
+        <li>.log() - outputs whatever is stored, in the case of console.log, outputs whats stored in the console.</li>
+        <li>.trim() - removes whitespace at the beginning and end of a string</li>
+
+## Bult-in Objects
+An example of a built-in object is <em>Math</em>. It allows you to perform more complex mathematical operations than basic arithmetic. If you were to call the .random() method from the Math object:
+
+    console.log(Math.random()); //Prints a random number between 0 and 1
+
+If you wanted to increase the amount of results, you would just multiply Math.random() by that number.
+    
+    console.log(Math.random()*100); //Prints a random number between 0 and 100
+
+To ensure the answer is a whole number, we can call:
+
+    .floor() method - which takes a decimal number and rounds down to the nearest whole number.
+    Math.floor(Math.random() * 100);
+
+So if you wanted to print the value to the terminal you would get something like this:
+
+    console.log(Math.floor(Math.random() * 100));
+    // Prints the number to the terminal, rounds the number down to the nearest whole number, prints a random number between 0 and 1 * 100
+
+
