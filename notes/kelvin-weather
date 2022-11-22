@@ -1,0 +1,24 @@
+# Kelvin Weather
+
+## Solution
+    //creates a constant with a value of 293
+    const kelvin = 293;
+    //converts any value of kelvin into celsius
+    var celsius = kelvin - 273;
+    //converts any value of celsius into fahrenheit while allowing the value of fahrenheit to change
+    let fahrenheit = celsius * (9/5) + 32;
+    //allows us to round the value down to the nearest whole number
+    fahrenheit = Math.floor(celsius * (9/5) + 32);
+    console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
+
+## Extra Practice Solution
+
+    //creates a constant with a value of 293
+    const kelvin = 293;   
+    //converts any value of kelvin into celsius
+    var celsius = kelvin - 273;
+    //converts any value of celsius into newton while allowing the value of newton to change
+    let newton = celsius * (33/100);
+    //allows us to round the value down to the nearest whole number
+    newton = Math.floor(celsius* (33/100));
+    console.log(`The temperature is ${newton} degrees newton.`);
