@@ -1,0 +1,37 @@
+# Dog Years 
+
+## Solution 
+    //created a variable named myAge with a value of my age, adjust the age accordingly
+    var myAge = 25;
+
+    //created a variable named earlyYears with a value of 2
+    var earlyYears = 2;
+
+    //used mult. assignment operator to multiply earlyYears by 10.5, then reassign that value as its new value
+    earlyYears *= 10.5;
+
+    //Since we accounted for our first two years of life being 10.5 years each for a dog, we are setting up for the value of the rest of our years in dog years
+    let laterYears = myAge - 2;
+
+    //used mult. assignment operator to multiply laterYears by 4, then reassign that value as its new value
+    laterYears *= 4;
+
+    //creates a variable depicting my age in dog years
+    var myAgeInDogYears = earlyYears + laterYears;
+
+    //creates a string with my name and prints all letters in lowercase. Adjust name accordingly
+    var myName = 'Binh'.toLowerCase();
+
+    //prints out the statement that displays your name and age in dog years using string interpolation
+    console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+
+## Extra Solution
+Multiplication assignment operators allow you to bypass creating a new variable by allowing you to reassign the <em>let</em> variable. These two code blocks replace the code blocks with the multiplaction assignment operators.
+
+    //created a new variable that converts the first 2 early years into dog years by multiplying by 10.5
+    var dogEarlyYears = earlyYears * 10.5;
+
+
+    //created a new variable that converts the later years after the early years into dog years by multiplying the early years by 4
+    var dogLaterYears = laterYears * 4;
